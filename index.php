@@ -101,15 +101,26 @@ li {
 <ul class="formList">
     <li>
         <label for="input_1">
-            Report Number
+            Your Name
         </label>
         <input id="input_1" name="input_1" type="text" />
     </li>
-    <li>
+        <li>
         <label for="input_2">
-            Report Type
+            His/Her Name
         </label>
-        <select id="input_2" name="input_2"></select>
+        <input id="input_2" name="input_1" type="text" />
+    </li>
+    <li>
+        <label for="input_3">
+            Choose Song
+        </label>
+        <select id="input_3" name="input_2">
+          <option value="default">select Song</option>
+  <option value="a">Saas me teri saas mili</option>
+  <option value="b">Sun mere humsafar</option>
+  <option value="c">Dushman na kare </option>
+        </select>
     </li>
 </ul>
   </div>
