@@ -4,8 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Dedicate a song</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
   <style type="text/css">
   body {
   background-color: #4CAF50;
@@ -88,16 +86,14 @@ li {
     padding-left:200px;
     margin: 10px;
 }
-audio
-{
-	margin-left: 22px;
-	padding-bottom: 34px;
+img {
+    max-height: 50px;
+    
 }
   </style>
 
 </head>
 <body>
-<div class="master">
 <div class="container-fluid">
   <div class="header">
   <a href="#default" class="logo">Dedicate Song</a>
@@ -108,25 +104,38 @@ audio
 
 </div>
   <div class="form">
-  	<center><h3>Adarsh Dedicated this Song to you Arti!</h3></center>
-  <audio controls>
-  <source src="https://www.youtube.com/watch?v=_KhQT-LGb-4">
-Your browser does not support the audio element.
-</audio>
- <button>Dedicate more songs</button> 
+<ul class="formList">
+    <li>
+        <label for="input_1">
+            Your Name
+        </label>
+        <input id="input_1" name="input_1" type="text" />
+    </li>
+        <li>
+        <label for="input_2">
+            His/Her Name
+        </label>
+        <input id="input_2" name="input_1" type="text" />
+    </li>
+    <li>
+        <label for="input_3">
+            Choose Song
+        </label>
+        <select id="input_3" name="input_2">
+          <option value="default">select Song</option>
+  <option value="a">Saas me teri saas mili</option>
+  <option value="b">Sun mere humsafar</option>
+  <option value="c">Dushman na kare </option>
+        </select>
+    </li>
+    <li>
+      <label for="input_3">
+      Send to whatsapp
+        </label>
+   <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.jpg"></a>
+</li>
+</ul>
 
   </div>
-<script type="text/javascript">
-	
-	$("button").click(function(){
-  $(".master").load("index.php", function(responseTxt, statusTxt, xhr){
-    if(statusTxt == "success")
-      console.log("External content loaded successfully!");
-    if(statusTxt == "error")
-      alert("Error: " + xhr.status + ": " + xhr.statusText);
-  });
-});
-</script>
- </div>	
 </body>
 </html>
