@@ -85,7 +85,13 @@ li {
     padding-left:200px;
     margin: 10px;
 }
+audio
+{
+	margin-left: 22px;
+	padding-bottom: 34px;
+}
   </style>
+
 </head>
 <body>
 <div class="container-fluid">
@@ -98,35 +104,12 @@ li {
 
 </div>
   <div class="form">
-<ul class="formList">
-    <li>
-        <label for="input_1">
-            Your Name
-        </label>
-        <input id="input_1" name="input_1" type="text" />
-    </li>
-        <li>
-        <label for="input_2">
-            His/Her Name
-        </label>
-        <input id="input_2" name="input_1" type="text" />
-    </li>
-    <li>
-        <label for="input_3">
-            Choose Song
-        </label>
-        <select id="input_3" name="input_2">
-          <option value="default">select Song</option>
-  <option value="a">Saas me teri saas mili</option>
-  <option value="b">Sun mere humsafar</option>
-  <option value="c">Dushman na kare </option>
-        </select>
-    </li>
-    <li>
-   <input type="submit" value="Dedicate" onclick="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">
-   <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">Share via Whatsapp</a>
-</li>
-</ul>
+  	<center><h3>Adarsh Dedicated this Song to you Arti!</h3></center>
+  <audio controls>
+  <source src="saans-3433.mp3">
+Your browser does not support the audio element.
+</audio>
+  <form action="/index.php"><input type="submit" value="Dedicate song to your friend"</form>
 
   </div>
 </body>
