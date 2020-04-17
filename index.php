@@ -125,13 +125,17 @@ li {
         </select>
     </li>
     <li>
-   <input type="submit" value="Dedicate" onclick="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">
+   <input type="submit" id="action"value="Dedicate>
    <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">Share via Whatsapp</a>
 </li>
 </ul>
 
   </div>
    <script type="text/javascript">
+
+$('#action').click(function() {
+   document.location.href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share";
+});
     var name = $('#input_1').val();
     alert(name);
   </script>
