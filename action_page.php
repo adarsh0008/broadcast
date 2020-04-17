@@ -1,5 +1,8 @@
-<?php 
-$name = $_POST['name']
-$dedicated_to = $_POST['dname']
-echo "Dear"."".$dedicated_to.","."".$name.""."Dedicated you a song."
-?>
+<html>
+<body>
+
+Welcome <?php echo $_GET["name"]; ?><br>
+Your email address is: <?php echo $_GET["email"]; ?>
+
+</body>
+</html>
