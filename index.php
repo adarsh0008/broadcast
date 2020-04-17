@@ -125,7 +125,10 @@ li {
         </select>
     </li>
     <li>
-   <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.jpeg"></a>
+      <label for="input_3">
+            Send to whatsapp
+        </label>
+   <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.jpg"></a>
 </li>
 </ul>
 
