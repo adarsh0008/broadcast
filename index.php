@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Quiz</title>
+	<title>Dedicate song</title>
 	<style type="text/css">
 		/* Style the form element with a border around it */
 form {
@@ -44,13 +44,13 @@ input[type=submit]:hover {
 <body>
 <form action="action_page.php">
   <div class="container">
-    <h2>Subscribe to our Newsletter</h2>
-    <p>Lorem ipsum..</p>
+    <h2>Dedicate Song</h2>
+    <p>Dedicate songs to your loved ones.</p>
   </div>
 
   <div class="container" style="background-color:white">
-    <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="mail" required>
+    <input type="text" placeholder=" Your Name" name="name" required>
+    <input type="text" placeholder="His/Her name" name="mail" required>
     <label>
       <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
     </label>
