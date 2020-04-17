@@ -90,7 +90,18 @@ img {
     max-height: 50px;
     
 }
+.player
+{
+      padding-left: 219px;
+    padding-top: 4px;
+}
+.share
+{
+      padding-left: 219px;
+    padding-top: 4px;
+}
   </style>
+
 
 </head>
 <body>
@@ -123,19 +134,39 @@ img {
         </label>
         <select id="input_3" name="input_2">
           <option value="default">select Song</option>
-  <option value="a">Saas me teri saas mili</option>
-  <option value="b">Sun mere humsafar</option>
-  <option value="c">Dushman na kare </option>
+  <option value="a.mp3">Saas me teri saas mili</option>
+  <option value="b.mp3">Sun mere humsafar</option>
+  <option value="c.mp3">Dushman na kare </option>
         </select>
     </li>
-    <li>
+    </ul>
+    <div class="player">
       <label for="input_3">
-            Send to whatsapp
+     Song Preview :
+        </label>
+        <audio controls id='audio_core'>
+</audio>
+</div>
+    <div class="share">
+      <label for="input_4">
+      Send to whatsapp
         </label>
    <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.jpg"></a>
-</li>
-</ul>
+</div>
+
 
   </div>
+  <script type="text/javascript">
+  $(function() {
+    $("#input_3").change(function() {
+       
+        var sourceUrl = $('option:selected', this).val();
+      var src=sourceUrl;
+      audio_core=$('#audio_core').attr('src', src);
+    audio_core.play();// <- play the song!!!
+
+    });
+});
+  </script>
 </body>
 </html>
