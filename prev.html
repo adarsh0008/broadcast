@@ -3,6 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Dedicate a song</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <style type="text/css">
   body {
   background-color: #4CAF50;
@@ -106,11 +107,23 @@ audio
   <div class="form">
   	<center><h3>Adarsh Dedicated this Song to you Arti!</h3></center>
   <audio controls>
-  <source src="saans-3433.mp3">
+  <source src="https://www.youtube.com/watch?v=_KhQT-LGb-4">
 Your browser does not support the audio element.
 </audio>
-  <form action="/index.php"><input type="submit" value="Dedicate song to your friend"</form>
+  <button>Dedicate more songs</button>
 
   </div>
+<script type="text/javascript">
+	
+	$("button").click(function(){
+  $(".container-fluid").load("index.php", function(responseTxt, statusTxt, xhr){
+    if(statusTxt == "success")
+      alert("External content loaded successfully!");
+    if(statusTxt == "error")
+      alert("Error: " + xhr.status + ": " + xhr.statusText);
+  });
+});
+</script>
+ 
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Dedicate a song</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <style type="text/css">
   body {
   background-color: #4CAF50;
@@ -130,5 +131,9 @@ li {
 </ul>
 
   </div>
+   <script type="text/javascript">
+    var name = $('#input_1').val();
+    alert(name);
+  </script>
 </body>
 </html>
