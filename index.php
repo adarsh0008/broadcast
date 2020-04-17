@@ -86,6 +86,10 @@ li {
     padding-left:200px;
     margin: 10px;
 }
+img {
+    max-height: 50px;
+    
+}
   </style>
 
 </head>
