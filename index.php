@@ -16,9 +16,9 @@ E-mail: <input type="text" name="email"><br>
 	@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-page {
-  width: 90%;
-  padding: 10% 0 0;
+  width: 400px;
   margin: auto;
+  min-height: 100%;
 }
 .form {
   position: relative;
