@@ -170,11 +170,7 @@ audio
     var name = $("#input_1").val();
     var dname = $("#input_2").val();
     var med=$('#input_3 :selected').val();
-    var url= "https://virtualsquad.herokuapp.com/prev.php?name="+name+"%26dname="+dname+"%26med="+med;
-    alert(url);
-    ("#wshare").attr("href","whatsapp://send?text="+url);
-   // alert("whatsapp://send?text=Dear "+dname+"! "+name+" Dedicated a song to you.please enjoy your song here :"+url);
-  //$("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+"! "+name+" Dedicated a song to you."+url);
+   $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+"! "+name+" Dedicated a song to you.please enjoy your song here : https://virtualsquad.herokuapp.com/prev.php?name="+name+"&dname="+dname+"&med="+med);
   
     });
    });
@@ -184,7 +180,7 @@ audio
       <label for="input_4">
       Send to whatsapp
         </label>
-   <a id="wshare" href="whatsapp://send?text=ttt" data-action="share/whatsapp/share"><img src="1.jpg"></a>
+   <a id="wshare" href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.jpg"></a>
 </div>
 
 
