@@ -169,7 +169,8 @@ audio
     $("#wshare").click(function(){
     var name = $("#input_1").val();
     var dname = $("#input_2").val();
-   $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+"! "+name+" Dedicated a song to you.please enjoy your song here : https://virtualsquad.herokuapp.com/prev.html");
+    var med=$('#input_3 :selected').val();
+   $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+"! "+name+" Dedicated a song to you.please enjoy your song here : https://virtualsquad.herokuapp.com/prev.php?name="+name+"&dname="+dname+"&med="+med);
   
     });
    });
