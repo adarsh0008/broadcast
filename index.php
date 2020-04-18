@@ -184,7 +184,7 @@ audio
       <label for="input_4">
       Send to whatsapp
         </label>
-   <a id="wshare" href="whatsapp://send?text=https://virtualsquad.herokuapp.com/prev.php?name="+name+"&dname="+dname+"&med="+med" data-action="share/whatsapp/share"><img src="1.jpg"></a>
+   <a id="wshare" href="whatsapp://send?text=https://virtualsquad.herokuapp.com/prev.php?name=adarsh&dname=arti&med=b" data-action="share/whatsapp/share"><img src="1.jpg"></a>
 </div>
 
 
