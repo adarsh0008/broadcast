@@ -169,9 +169,8 @@ audio
     $("#wshare").click(function(){
     var name = $("#input_1").val();
     var dname = $("#input_2").val();
-
-   $("#wshare").attr( { href:"whatsapp://send?text=Dear "+dname+", "+name+" Dedicate a song to you.", data-action:"share/whatsapp/share" } );
-   alert(Link changed);
+   $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+", "+name+" Dedicate a song to you.");
+  
     });
    });
 
