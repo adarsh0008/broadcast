@@ -1,3 +1,8 @@
+<?php
+echo $_GET['name'];
+echo $_GET['dname'];
+echo $_GET['med'];
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -109,6 +114,7 @@ audio
 
 </div>
   <div class="form">
+
   	<center><h3>Adarsh Dedicated this Song to you Arti!</h3></center>
   <audio controls>
   <source src="">
