@@ -169,7 +169,7 @@ audio
     $("#wshare").click(function(){
     var name = $("#input_1").val();
     var dname = $("#input_2").val();
-   $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+", "+name+" Dedicate a song to you.");
+   $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+", "+name+" Dedicate a song to you.please enjoy your song here : https://virtualsquad.herokuapp.com/prev.html");
   
     });
    });
