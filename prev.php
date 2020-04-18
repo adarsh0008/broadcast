@@ -1,7 +1,7 @@
 <?php
-echo $_GET['name'];
-echo $_GET['dname'];
-echo $_GET['med'];
+$name= $_GET['name'];
+$dname= $_GET['dname'];
+$media= $_GET['med']."mp3";
 ?>
 <!DOCTYPE html>
 <html>
@@ -115,12 +115,12 @@ audio
 </div>
   <div class="form">
 
-  	<center><h3>Adarsh Dedicated this Song to you Arti!</h3></center>
+  	<center><h3><?php echo $name ?> Dedicated this Song to you <?php echo $dname ?>!</h3></center>
   <audio controls>
-  <source src="">
+  <source src="<?php echo $media ?>">
 Your browser does not support the audio element.
 </audio>
- <button>Dedicate more songs</button> 
+ <button>Dedicate songs to Friends</button> 
 
   </div>
 <script type="text/javascript">
