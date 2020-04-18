@@ -123,7 +123,7 @@ audio
   <source src="<?php echo $media ?>">
 Your browser does not support the audio element.
 </audio>
- <button>Dedicate songs to Friends</button> 
+ <button class="mdc-button__ripple">Dedicate songs to Friends</button> 
 <button class="mdc-fab" aria-label="Favorite">
   <div class="mdc-fab__ripple"></div>
   <span class="mdc-fab__icon material-icons">favorite</span>
