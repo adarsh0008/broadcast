@@ -171,7 +171,7 @@ audio
     var dname = $("#input_2").val();
     var med=$('#input_3 :selected').val();
     alert("whatsapp://send?text=Dear "+dname+"! "+name+" Dedicated a song to you.please enjoy your song here : https://virtualsquad.herokuapp.com/prev.php?name="+name+"&dname="+dname+"&med="+med);
-  $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+"! "+name+" Dedicated a song to you.please enjoy your song here : https://virtualsquad.herokuapp.com/prev.php?name="+name+"&dname="+dname+"&med="+med);
+  $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+"! "+name+" Dedicated a song to you. https://virtualsquad.herokuapp.com/prev.php?name="+name+"&dname="+dname+"&med="+med);
   
     });
    });
