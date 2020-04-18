@@ -93,14 +93,27 @@ img {
 .player
 {
       padding-left: 219px;
-    padding-top: 4px;
+    padding-top: 4px;;
+    border: solid 1px;
+    margin: 9px;
+
 }
 .share
 {
       padding-left: 219px;
     padding-top: 4px;
+    border: solid 1px;
+    margin: 9px;
+}
+audio
+{
+  background-color:#4caf50;
+      max-width: 100px;
+    border: solid 1px;
+
 }
   </style>
+
 
 
 </head>
@@ -157,16 +170,17 @@ img {
 
   </div>
   <script type="text/javascript">
+  // function to change songs on selection 
+
   $(function() {
     $("#input_3").change(function() {
        
         var sourceUrl = $('option:selected', this).val();
       var src=sourceUrl;
-      audio_core=$('#audio_core').attr('src', src);
-    audio_core.play();// <- play the song!!!
+    var audio_core=$('#audio_core').attr('src', src);
 
     });
-});
+    });
   </script>
 </body>
 </html>
