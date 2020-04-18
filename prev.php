@@ -9,6 +9,8 @@ $media= $_GET['med'];
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Dedicate a song</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
  <script type="text/javascript">
 setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
  </script>
@@ -121,7 +123,10 @@ audio
 Your browser does not support the audio element.
 </audio>
  <button>Dedicate songs to Friends</button> 
-
+<button class="mdc-fab" aria-label="Favorite">
+  <div class="mdc-fab__ripple"></div>
+  <span class="mdc-fab__icon material-icons">favorite</span>
+</button>
   </div>
 <script type="text/javascript">
 	

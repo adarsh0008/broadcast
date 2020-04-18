@@ -4,6 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Dedicate a song</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
 
   <style type="text/css">
   body {
@@ -169,7 +171,8 @@ audio
     $("#wshare").click(function(){
     var name = $("#input_1").val();
     var dname = $("#input_2").val();
-   $("#wshare").attr( { href:"whatsapp://send?text=Dear "+dname+", "+name+" Dedicate a song to you.", data-action:"share/whatsapp/share" } );
+   $("#wshare").attr("href", "whatsapp://send?text=Dear "+dname+", "+name+" Dedicate a song to you.");
+  
     });
    });
 
