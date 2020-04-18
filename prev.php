@@ -1,7 +1,7 @@
 <?php
 $name= $_GET['name'];
 $dname= $_GET['dname'];
-$media= $_GET['med'].".mp3";
+$media= $_GET['med'];
 ?>
 <!DOCTYPE html>
 <html>
