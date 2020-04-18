@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Dedicate a song</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <style type="text/css">
   body {
   background-color: #4CAF50;
@@ -160,11 +161,24 @@ audio
         <audio controls id='audio_core'>
 </audio>
 </div>
+
+ <script type="text/javascript">
+   // Script to get the form values
+   $(document).ready(function()
+   {
+    $("#wshare").click(function(){
+    var name = $("#input_1").val();
+    var dname = $("#input_2").val();
+   $("#wshare").attr( { href:"whatsapp://send?text=Dear "+dname+", "+name+" Dedicate a song to you.", data-action:"share/whatsapp/share" } );
+    });
+   });
+
+ </script>
     <div class="share">
       <label for="input_4">
       Send to whatsapp
         </label>
-   <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.jpg"></a>
+   <a id="wshare" href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.jpg"></a>
 </div>
 
 
