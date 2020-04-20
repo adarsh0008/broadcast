@@ -8,10 +8,10 @@ $media= $_GET['med'];
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Dedicate a song</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="//cdn.muicss.com/mui-0.10.1/css/mui.min.css" rel="stylesheet" type="text/css" />
+<script src="//cdn.muicss.com/mui-0.10.1/js/mui.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+
  <script type="text/javascript">
 setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
  </script>
@@ -19,6 +19,8 @@ setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
   body {
   background-color: #4CAF50;
 } 
+
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -123,12 +125,9 @@ audio
   <source src="<?php echo $media ?>">
 Your browser does not support the audio element.
 </audio>
- <button class="mdc-button__ripple">Dedicate songs to Friends</button> 
-<button class="mdc-fab" aria-label="Favorite">
-  <div class="mdc-fab__ripple"></div>
-  <span class="mdc-fab__icon material-icons">favorite</span>
-</button>
+<center><button class="mui-btn mui-btn--raised mui-btn--primary">Dedicate songs to Friends</button></center> 
   </div>
+
 <script type="text/javascript">
 	
 	$("button").click(function(){
