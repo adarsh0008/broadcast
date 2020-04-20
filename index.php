@@ -109,7 +109,7 @@ img {
 audio
 {
   background-color:#4caf50;
-      max-width: 100px;
+      max-width: 92px;
     border: solid 1px;
 
 }
@@ -154,6 +154,7 @@ audio
         </select>
     </li>
     </ul>
+
     <div class="player">
       <label for="input_3">
      Song Preview :
