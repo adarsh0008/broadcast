@@ -39,10 +39,10 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
   const messaging = firebase.messaging();
-  messaging.requestPermission().then(function{
+  messaging.requestPermission().then(function(){
     console.log("Have permission");
   })
-  .catch(function{
+  .catch(function(err){
 console.log("Error occured!");
   })
 </script>
