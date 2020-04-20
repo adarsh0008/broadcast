@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>virtualSquad</title>
+	<title>virtualSquad</title>
 </head>
 <body>
   <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
@@ -40,7 +40,7 @@
   firebase.analytics();
   const messaging = firebase.messaging();
   messaging.requestPermission().then(function{
-    console.log("Have permission");
+  	console.log("Have permission");
   })
   .catch(function{
 console.log("Error occured!");
