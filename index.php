@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>WebRTC Video Conferencing</title>
+        <title>Video Conferencing</title>
 
         <script>
             if(!location.hash.replace('#', '').length) {
@@ -85,28 +85,11 @@
         <article>
             <header style="text-align: center;">
                 <h1>
-                    WebRTC Video Conferencing
+            Video Conferencing
                 </h1>
-                <p>
-                    <a href="https://www.webrtc-experiment.com/">HOME</a>
-                    <span> &copy; </span>
-                    <a href="http://www.MuazKhan.com/" target="_blank">Muaz Khan</a>
-
-                    .
-                    <a href="http://twitter.com/WebRTCWeb" target="_blank" title="Twitter profile for WebRTC Experiments">@WebRTCWeb</a>
-
-                    .
-                    <a href="https://github.com/muaz-khan?tab=repositories" target="_blank" title="Github Profile">Github</a>
-
-                    .
-                    <a href="https://github.com/muaz-khan/WebRTC-Experiment/issues?state=open" target="_blank">Latest issues</a>
-
-                    .
-                    <a href="https://github.com/muaz-khan/WebRTC-Experiment/commits/master" target="_blank">What's New?</a>
-                </p>
             </header>
 
-            <div class="github-stargazers"></div>
+           
 
             <!-- just copy this <section> and next script -->
             <section class="experiment">
@@ -321,16 +304,7 @@
 
             </script>
 
-            <section class="experiment">
-                <ol>
-                    <li>This <a href="https://www.webrtc-experiment.com/">WebRTC</a> experiment is aimed to transmit audio/video streams in many-to-many style.</li>
-                    <li>It setups multiple peer connections to support multi-user connectivity feature. Remember, <a href="https://www.webrtc-experiment.com/">WebRTC</a> doesn't supports 3-way handshake!</li>
-                    <li>Out of multi-peers establishment; many RTP-ports are opened according to number of media streams referenced to each peer connection.</li>
-                    <li>Multi-ports establishment will cause <a href="https://www.webrtc-experiment.com/docs/RTP-usage.html">huge CPU and bandwidth usage</a>!</li>
-                    <li>Mesh networking model is implemented to open multiple interconnected peer connections.</li>
-                    <li>Maximum peer connections limit is 256 (on chrome). It means that 256 users can be interconnected!</li>
-                </ol>
-            </section>
+
 
             <section class="experiment"><small id="send-message"></small></section>
         </article>
@@ -339,9 +313,9 @@
 
         <footer>
             <p>
-                <a href="https://www.webrtc-experiment.com/">WebRTC Experiments</a>
-                © <a href="https://plus.google.com/+MuazKhan" rel="author" target="_blank">Muaz Khan</a>
-                <a href="mailto:muazkh@gmail.com" target="_blank">muazkh@gmail.com</a>
+                
+                © Adarsh shukla
+                
             </p>
         </footer>
 
