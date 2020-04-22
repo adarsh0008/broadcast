@@ -309,8 +309,6 @@
             <section class="experiment"><small id="send-message"></small></section>
         </article>
 
-        <a href="https://github.com/muaz-khan/WebRTC-Experiment/tree/master/video-conferencing" class="fork-left"></a>
-
         <footer>
             <p>
                 
