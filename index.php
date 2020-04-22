@@ -98,8 +98,8 @@
                         Private ?? <a href="/video-conferencing/" target="_blank" title="Open this link in new tab. Then your conference room will be private!"><code><strong id="unique-token">#123456789</strong></code></a>
                     </span>
 
-                    <input type="text" id="conference-name" placeholder="Conference Name" style="width: 50%;">
-                    <button id="setup-new-room" class="setup">Setup New Conference</button>
+                    <input type="text" id="conference-name" style="width: 50%;">
+                    <button id="setup-new-room" class="setup">New Conference</button>
                 </section>
 
                 <!-- list of all available conferencing rooms -->
@@ -266,7 +266,7 @@
                 (function() {
                     var uniqueToken = document.getElementById('unique-token');
                     if (uniqueToken)
-                        if (location.hash.length > 2) uniqueToken.parentNode.parentNode.parentNode.innerHTML = '<h2 style="text-align:center;display: block;"><a href="' + location.href + '" target="_blank">Right click to copy & share this private link</a></h2>';
+                        if (location.hash.length > 2) uniqueToken.parentNode.parentNode.parentNode.innerHTML = '<h2 style="text-align:center;display: block;"><a href="' + location.href + '" target="_blank">Copy link</a></h2>';
                         else uniqueToken.innerHTML = uniqueToken.parentNode.parentNode.href = '#' + (Math.random() * new Date().getTime()).toString(36).toUpperCase().replace( /\./g , '-');
                 })();
 
