@@ -312,7 +312,7 @@
         <footer>
             <p>
                 
-                © Adarsh shukla
+                © Designed and Developed by Adarsh shukla
                 
             </p>
         </footer>
