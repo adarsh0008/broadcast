@@ -35,9 +35,10 @@
   firebase.analytics();
 </script>
 <script>
+ <script>
  
-  var email="adarshlkj@gmail.com";
-  var password="test@123";
+  var email="someone@example.com";
+  var password="password";
   
   //Create User with Email and Password
   firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
@@ -47,22 +48,8 @@
     console.log(errorCode);
     console.log(errorMessage);
   });
- var user = firebase.auth().currentUser;
-if (user) {
-  // User is signed in.
-  if (user != null) {
-    name = user.displayName;
-    email = user.email;
-    photoUrl = user.photoURL;
-    emailVerified = user.emailVerified;
-    uid = user.uid;  
-    // The user's ID, unique to the Firebase project. Do NOT use
-    // this value to authenticate with your backend server, if
-    // you have one. Use User.getToken() instead.
-  }
-} else {
-  // No user is signed in.
-}
+  
+</script>
   
 </script>
 
