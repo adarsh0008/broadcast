@@ -74,6 +74,25 @@
   </head>
   <title>Work Management</title>
   <body>
+<div class="mui-container-fluid">
+      <div class="mui-appbar">
+         <table width="100%">
+         <tr style="vertical-align:middle;">
+         <td class="mui--appbar-height">Work Management</td>
+         </tr>
+         </table>
+      </div>
+      <form class="mui-form">
+           <legend>Title</legend>
+          <div class="mui-textfield">
+           <input type="text" placeholder="Input 1">
+          </div>
+  <div class="mui-textfield">
+    <input type="text" placeholder="Input 2">
+  </div>
+  <button type="submit" class="mui-btn mui-btn--raised">Submit</button>
+</form>
+</div>
 
   </body>
 </html>
