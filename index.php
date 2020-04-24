@@ -35,8 +35,6 @@
   firebase.analytics();
 </script>
 <script>
- <script>
- 
   var email="someone@example.com";
   var password="password";
   
@@ -48,8 +46,6 @@
     console.log(errorCode);
     console.log(errorMessage);
   });
-  
-</script>
   
 </script>
 
