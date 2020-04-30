@@ -70,6 +70,15 @@ setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
         padding-top: 1px;
     padding-bottom: 1px;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
@@ -139,6 +148,9 @@ Your browser does not support the audio element.
   });
 });
 </script>
+<div class="footer">
+  <p>© Adarsh Shukla</p>
+</div>
  </div>	
 </body>
 </html>
