@@ -1,0 +1,11 @@
+{
+  "name": "broadcast",
+  "version": "1.0.0",
+  "description": "This will load static content only ",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
