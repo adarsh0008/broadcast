@@ -113,6 +113,15 @@ audio
     border: solid 1px;
 
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
   </style>
 
 <link href="style.css" rel="stylesheet">
@@ -187,7 +196,9 @@ audio
    <button class="add-button">Download APP</button>
 </div>
 
-
+<div class="footer">
+  <p>© Adarsh Shukla</p>
+</div>
   </div>
   <script type="text/javascript">
   // function to change songs on selection 
