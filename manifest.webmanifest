@@ -4,7 +4,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "icon/1.png",
+      "src": "icon/fox-icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
