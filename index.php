@@ -192,7 +192,7 @@ audio
       <label for="input_4">
       Send to whatsapp
         </label>
-   <a id="wshare" href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.jpg"></a>
+   <a id="wshare" href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><img src="1.png"></a>
    <button class="add-button">Download APP</button>
 </div>
 
