@@ -25,7 +25,7 @@ var assetsToCache = [
 ];
 
 self.addEventListener('sync', function(event) {
-    if (event.registration.user.tag == "oneTimeSync") {
+    if (event.registration.user == "oneTimeSync") {
         console.dir(self.registration);
         console.log("One Time Sync Fired");
     }
